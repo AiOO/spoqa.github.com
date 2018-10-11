@@ -10,7 +10,7 @@ publish: true
 # 팀원의 상태 변화를 잘 알 수 있을까?
 
 <figure>
-  <img src="/images/happyhour/spoqa-pokemon.jpg"
+  <img src="/images/happyhour/spoqa-pokemon-shot.jpg"
      style="margin-right:auto; margin-left:auto;" />
   <figcaption>
     각 포켓몬의 머리 위에 떠 있는 아이콘과 하단의 UI를 통해 캐릭터의 체력과 상태 등을 알 수 있다.
