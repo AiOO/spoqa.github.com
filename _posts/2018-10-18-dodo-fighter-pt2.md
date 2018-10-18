@@ -141,5 +141,5 @@ publish: true
 
   [도도 파이터]: https://pycon-2018-dodo-fighter.spoqa.com
   [파이콘 한국 2018]: https://www.pycon.kr/2018/
-  [니가와]: https://namu.wiki/w/%EB%8B%88%EA%B0%80%EC%99%80c
+  [니가와]: https://namu.wiki/w/%EB%8B%88%EA%B0%80%EC%99%80
 
