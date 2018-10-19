@@ -125,7 +125,7 @@ publish: true
 
 * 1위 [leehosung](https://github.com/leehosung) 님의 [제출](https://gist.github.com/segfault87/c6bd3572ca48ad970fcfb087362f774b#file-leehosung-py)
 
-  이번 대회에서 1등을 수상한 [leehosung](https://github.com/leehosung) 님의 제출 역시 1칸 간격을 유지하며 니가와 전술을 사용하고 있습니다. 그 외에 방어 또는 회피에 성공할 경우에 공격을 시도하여 데미지의 극대화를 노리거나 이전 공격이 실패했을 경우 방어 또는 회피를 시도하며, 현재 자신의 체력에 따라서 공격과 방어 비율을 조정하는 등 추가적인 전술을 활용하고 있습니다.
+  이번 대회 토너먼트에서도 1등을 수상하신 [leehosung](https://github.com/leehosung) 님의 제출 역시 한 칸 간격을 유지하며 니가와 전술을 사용하고 있습니다. 그 외에 방어 또는 회피에 성공할 경우에 공격을 시도하여 데미지의 극대화를 노리거나 이전 공격이 실패했을 경우 방어 또는 회피를 시도하며, 현재 자신의 체력에 따라서 공격과 방어 비율을 조정하는 등 추가적인 전술을 활용하고 있습니다.
 
 ## The Honorable Mention
 
