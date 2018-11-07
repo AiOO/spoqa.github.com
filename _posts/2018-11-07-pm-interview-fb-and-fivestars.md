@@ -32,7 +32,7 @@ publish: true
 
 
 <figure>
-  <img src="../images/2018-11-07/sf_01.jpg"
+  <img src="/images/2018-11-07/sf_01.jpg"
      style="margin: 0 auto;" />
   <figcaption>
     좌측에서부터 Stephanie Shum, 옥지혜, David Park
@@ -76,7 +76,7 @@ D: 인정 역시 중요하다. 제품팀의 인원을 포함하여 기술 조직
 
 
 <figure>
-  <img src="../images/2018-11-07/sf_02.jpg"
+  <img src="/images/2018-11-07/sf_02.jpg"
      style="margin: 0 auto;" />
   <figcaption>
     Fivestars 인터뷰 진행을 위해 게스트 체크인 중
