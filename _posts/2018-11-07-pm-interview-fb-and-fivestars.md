@@ -3,7 +3,7 @@ layout: entry
 title: 샌프란시스코 테크 업계 인터뷰 1: Facebook, Fivestars
 author: 옥지혜
 author-email: june@spoqa.com
-description: 샌프란시스코 PM을 인터뷰한 내용과 인사이트를 공유합니다
+description: 샌프란시스코에서 일하는 PM을 인터뷰한 내용과 인사이트를 공유합니다
 publish: true
 ---
 
