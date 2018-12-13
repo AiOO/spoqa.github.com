@@ -82,7 +82,7 @@ publish: true
 </figure>
 
 
-위 언급한 일 외에도 참가자만 알고 있는 다양한 해프닝도 있었습니다. 포트폴리오 리뷰 행사에 대한 조금 더 자세한 후기는 유다정 님의 글 [“Spoqa Design Month : Portfolio Review를 돌아보며”](https://spoqa.github.io/2018/11/21/portfolio-review.html)을 읽어보세요.
+위 언급한 일 외에도 참가자만 알고 있는 다양한 해프닝도 있었습니다. 포트폴리오 리뷰 행사에 대한 조금 더 자세한 후기는 유다정 님의 글 [“Spoqa Design Month : Portfolio Review를 돌아보며”](https://spoqa.github.io/2018/11/21/portfolio-review.html)를 읽어보세요.
 
 # 행사를 만드는 사람들을 위한 행사 회고
 행사를 만드는 사람, 행사에 꾸준히 참여하는 사람에게 도움이 되길 기대하면서 이번에도 저희가 배운 점을 적어봅니다. 
