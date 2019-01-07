@@ -19,12 +19,12 @@ publish: true
 
 <figure>
   <img src="/images/2019-01-04/tada-2.jpg" style="margin: 0 auto;" />
-     <figcaption>짐도 직접 실어 주시는 기사님</figcaption>
+  <figcaption>짐도 직접 실어 주시는 기사님</figcaption>
 </figure>
 
 <figure>
   <img src="/images/2019-01-04/tada-1.jpg" style="margin: 0 auto;" />
-     <figcaption>두근두근 김포공항 도착</figcaption>
+  <figcaption>두근두근 김포공항 도착</figcaption>
 </figure>
 
 
@@ -35,12 +35,12 @@ publish: true
 
 <figure>
   <img src="/images/2019-01-04/ru-1.jpg" style="margin: 0 auto;" />
-     <figcaption>뭔가 드라마 속 부자 동네 같은 느낌...</figcaption>
+  <figcaption>뭔가 드라마 속 부자 동네 같은 느낌...</figcaption>
 </figure>
 
 <figure>
   <img src="/images/2019-01-04/ru-2.jpg" style="margin: 0 auto;" />
-     <figcaption>오전엔 1층의 큰 테이블에서 주로 작업했습니다.</figcaption>
+  <figcaption>오전엔 1층의 큰 테이블에서 주로 작업했습니다.</figcaption>
 </figure>
 
 
@@ -50,13 +50,13 @@ publish: true
 
 <figure>
   <img src="/images/2019-01-04/jspace.jpg" style="margin: 0 auto;" />
-     </figure>
+</figure>
 
 J Space 외에도 제주도엔 일하기 좋은 공간이 여럿 있습니다. 제주창조경제혁신센터에서 만든 [리모트 워커스 맵](http://jccei.kr/starthub/platform/map.htm)을 보면 지도에서 쉽게 찾을 수 있습니다. 인스타그램의 [nomad city](https://www.instagram.com/nomadcity___/)라는 계정에서도 리모트 하기 좋은 곳들을 소개하고 있으니 참고하세요!
 
 <figure>
   <img src="/images/2019-01-04/ru-3.jpg" style="margin: 0 auto;" />
-      <figcaption>리모트워커스 맵 보면서 일할 장소 물색</figcaption>
+  <figcaption>리모트워커스 맵 보면서 일할 장소 물색</figcaption>
 </figure>
 
 
@@ -84,7 +84,7 @@ J Space 외에도 제주도엔 일하기 좋은 공간이 여럿 있습니다. �
 
 <figure>
   <img src="/images/2019-01-04/food-2.jpg" style="margin: 0 auto;" />
-      <figcaption>맛있는 식사는 행복해지는 가장 빠른 방법입니다.</figcaption>
+  <figcaption>맛있는 식사는 행복해지는 가장 빠른 방법입니다.</figcaption>
 </figure>
 
 
@@ -95,27 +95,27 @@ J Space 외에도 제주도엔 일하기 좋은 공간이 여럿 있습니다. �
 디자인팀은 제주도에 있는 동안 이동 시간이나 근무 시간을 항상 슬랙과 캘린더로 크리에이터 팀 전체에 공유했습니다. **방법은 각자 다르겠지만 리모트, 플렉서블 근무 시에는 평소보다 더 팀원을 배려하는 태도가 필요합니다.**
 
 <figure>
-    <img src="/images/2019-01-04/qahelp.png" style="margin: 0 auto;" />
-        <figcaption>
-        (리모트 근무는 아니지만) QA를 담당하시는 분이 휴가 동안 다른 팀원이 QA를 할 수 있도록 제작한 가이드.
-        </figcaption>
+  <img src="/images/2019-01-04/qahelp.png" style="margin: 0 auto;" />
+  <figcaption>
+    (리모트 근무는 아니지만) QA를 담당하시는 분이 휴가 동안 다른 팀원이 QA를 할 수 있도록 제작한 가이드.
+  </figcaption>
 
-     <img src="/images/2019-01-04/qahelp2.png" style="margin: 0 auto;" />
-        <figcaption>실제 이런 식으로 활용되었습니다.</figcaption>
+  <img src="/images/2019-01-04/qahelp2.png" style="margin: 0 auto;" />
+  <figcaption>실제 이런 식으로 활용되었습니다.</figcaption>
 </figure>
 
 제주도 리모트 동안 디자인팀은 이번 분기 핵심 목표 중 하나인 ‘경쟁사 리서치’를 진행했는데 **특정 Task를 “내가 제주도에 있는 동안 끝내고 오겠다!”라고 마음먹으니 집중도가 높았습니다.** 리모트 근무에선 다른 팀과 협업이 큰 업무보다는 이렇게 집중도 있게 현장에서 끝내고 올 수 있는 업무를 진행하는 게 업무 효율이 높다고 느꼈습니다. 그리고 제주도에 다녀온 후 크리에이터 워크숍에서 디자인팀의 세션을 따로 마련하여 제주도에서 진행했던 ‘경쟁사 리서치’를 발표했습니다. 발표를 준비하며 **디자인팀끼리도 리모트 업무를 wrap-up 할 수 있었고 다른 팀원들에게는 업무 진행에 대한 신뢰를 줄 수 있었습니다.**
 
 <figure>
   <img src="/images/2019-01-04/work.jpg" style="margin: 0 auto;" />
-     <figcaption>
-     분기 목표인 경쟁사 리서치를 카테고리를 나눠서 각자 진행하고 공유했습니다.
-     </figcaption>
+  <figcaption>
+    분기 목표인 경쟁사 리서치를 카테고리를 나눠서 각자 진행하고 공유했습니다.
+  </figcaption>
 </figure>
 
 <figure>
   <img src="/images/2019-01-04/workshop.jpg" style="margin: 0 auto;" />
-     <figcaption>크리에이터 워크샵에서 발표하는 유진님</figcaption>
+  <figcaption>크리에이터 워크샵에서 발표하는 유진님</figcaption>
 </figure>
 
 **크리에이터 팀에서 플렉서블, 리모트 근무는 복지가 아니라 일을 더 효율적으로 하려는 방법으로서 존재합니다.** 앞으로도 크리에이터 팀은 일을 더 잘할 수 있는 방법을 고민하며 여러분에게도 공유하겠습니다.
