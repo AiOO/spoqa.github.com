@@ -9,8 +9,8 @@ publish: true
 
 안녕하세요. 스포카 크리에이터 김두리입니다.
 
-- **시간을 처리할 때 시간대는 왜 중요할까요?** 시간대가 명시되지 않은 시각은 충분한 정보를 내포하고 있지 않습니다. 저는 얼마 전, Google calendar API를 이용하여 작업할 때 골치 아픈 일을 겪었습니다. 오늘의 일정을 불러오고 싶어서 오늘 0시~24시로 데이터를 요청했지만, 계속해서 결괏값에 다음 날의 일정도 포함되어서 반환되었습니다.  
-- **왜 다음날 일정도 포함되었던 걸까요?** 아래와 같은 코드를 작성하여 Google calendar API에 요청했습니다.
+- **시간을 처리할 때 시간대는 왜 중요할까요?** 시간대가 명시되지 않은 시각은 충분한 정보를 내포하고 있지 않습니다. 저는 얼마 전, Google Calendar API를 이용하여 작업할 때 골치 아픈 일을 겪었습니다. 오늘의 일정을 불러오고 싶어서 오늘 0시~24시로 데이터를 요청했지만, 계속해서 결괏값에 다음 날의 일정도 포함되어서 반환되었습니다.  
+- **왜 다음날 일정도 포함되었던 걸까요?** 아래와 같은 코드를 작성하여 Google Calendar API에 요청했습니다.
 
 ```python
 today = datetime.date.today()
@@ -31,7 +31,7 @@ from2 = datetime.datetime(today.year, today.month, today.day, 0, 0, 0,
                           tzinfo=datetime.timezone.utc)
 ```
 
-위 예제에서 `from2 - from1`를 하게 되면 `timedelta(hours=9)`가 계산됩니다. 우리가 의도했던 것은 오늘 0시부터의 데이터였지만, Google calendar API에서는 시간대를 UTC로 취급하여 오늘 9시부터 다음날 9시까지의 일정이 불러와 졌던 것입니다.
+위 예제에서 `from2 - from1`를 하게 되면 `timedelta(hours=9)`가 계산됩니다. 우리가 원했던 것은 KST 기준 오늘 0시부터의 일정이었지만, Google Calendar API에서는 시간대를 UTC로 취급하여 KST 기준 오늘 9시부터 다음날 9시까지의 일정을 불러왔던 것입니다.
 
 이렇듯 시간 관련 작업을 할 때 시간대에 대해 제대로 알고 있지 않으면 의도치 않게 많은 시간을 소모하게 될 수도 있습니다.
 
@@ -54,14 +54,14 @@ from2 = datetime.datetime(today.year, today.month, today.day, 0, 0, 0,
 
 `2019-01-01 00:00:00 +09:00`에 시간대가 `Asia/Seoul`로 설정된 제 랩탑에서 현재 시각을 가지고 오면, 아래와 같은 시각이 표시됩니다.
 
-```python
+```pycon
 >>> print(datetime.datetime.now())
 2019-01-01 00:00:00.000000
 ```
 
 그런데, 같은 시각에 `Asia/Taipei`로 설정된 랩탑에서는 현재 시각이 아래와 같이 표시됩니다.
 
-```python
+```pycon
 >>> print(datetime.datetime.now())
 2018-12-31 23:00:00.000000
 ```
@@ -128,7 +128,7 @@ assert taipei_1_1 != naive_1_1
 
 `datetime`의 타입을 알아봅시다. 파이썬에서 시간 관련 연산을 하다 보면 종종 아래와 같은 에러 문구를 만날 수 있습니다.
 
-```python
+```pycon
 >>> a = datetime.datetime.now()
 >>> b = datetime.datetime.now(datetime.timezone.utc)
 >>> a - b
@@ -137,9 +137,9 @@ Traceback (most recent call last):
 TypeError: can't subtract offset-naive and offset-aware datetimes
 ```
 
-- **naive** : 시간대를 포함하지 않습니다. (e.g. `datetime.datetime(2019, 2, 13, 4, 58, 4, 114979)`) naive 객체는 그 자체만으로 시간대를 찾을 수 있는 충분한 정보를 포함하지 않습니다.
+- **naive** : 시간대를 포함하지 않습니다. (e.g. `datetime.datetime(2019, 2, 14, 4, 58, 4, 114979)`) naive 객체는 그 자체만으로 시간대를 찾을 수 있는 충분한 정보를 포함하지 않습니다.
 
-- **aware**(timezone-aware) : 시간대를 포함합니다. (e.g.`datetime.datetime(2019, 2, 13, 4, 58, 4, 114979, tzinfo=<UTC>)`) aware 객체는 자신의 시각 정보를 다른 aware 객체와 상대적인 값으로 조정할 수 있도록 시간대나 [일광 절약 시간 정책](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B4%91_%EC%A0%88%EC%95%BD_%EC%8B%9C%EA%B0%84%EC%A0%9C) 혹은 적용 가능한 알고리즘 정보를 담고 있습니다.
+- **aware**(timezone-aware) : 시간대를 포함합니다. (e.g.`datetime.datetime(2019, 2, 14, 4, 58, 4, 114979, tzinfo=<UTC>)`) aware 객체는 자신의 시각 정보를 다른 aware 객체와 상대적인 값으로 조정할 수 있도록 시간대나 [일광 절약 시간 정책](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B4%91_%EC%A0%88%EC%95%BD_%EC%8B%9C%EA%B0%84%EC%A0%9C) 혹은 적용 가능한 알고리즘 정보를 담고 있습니다.
 
 **naive는 어느 시간대를 기준으로 하는 시각인지 모호하므로 aware를 이용하는 것을 권장합니다.**
 
@@ -176,10 +176,10 @@ naive는 날짜와 시각만을 갖습니다.
 import datetime
 
 datetime.datetime.utcnow()
-# UTC 기준 naive : datetime.datetime(2019, 2, 13, 4, 54, 29, 281594)
+# UTC 기준 naive : datetime.datetime(2019, 2, 14, 4, 54, 29, 281594)
 
 datetime.datetime.now()
-# 실행 환경 시간대 기준 naive : datetime.datetime(2019, 2, 13, 13, 54, 32, 939155)
+# 실행 환경 시간대 기준 naive : datetime.datetime(2019, 2, 14, 13, 54, 32, 939155)
 ```
 
 
@@ -190,18 +190,18 @@ import datetime
 from pytz import utc
 
 utc.localize(datetime.datetime.utcnow())
-# UTC 기준 aware : datetime.datetime(2019, 2, 13, 4, 55, 3, 310474, tzinfo=<UTC>)
+# UTC 기준 aware : datetime.datetime(2019, 2, 14, 4, 55, 3, 310474, tzinfo=<UTC>)
 ```
 
 `now`는 UTC를 기준으로 현재 시각을 생성합니다. 하지만, naive 시각입니다.
 
-```
+```python
 now = datetime.datetime.utcnow()
 ```
 
 이 시각은 naive 시각이므로 `pytz.timezone.localize`를 통해 timezone-aware 시각으로 변환된 시각과 동일하지 않습니다.
 
-```
+```python
 assert now != utc.localize(now)
 ```
 
@@ -216,50 +216,62 @@ from pytz import timezone, utc
 KST = timezone('Asia/Seoul')
 
 now = datetime.datetime.utcnow()
-# UTC 기준 naive : datetime.datetime(2019, 2, 13, 4, 18, 28, 805879)
+# UTC 기준 naive : datetime.datetime(2019, 2, 14, 4, 18, 28, 805879)
 
 utc.localize(now)
-# UTC 기준 aware : datetime.datetime(2019, 2, 13, 4, 18, 28, 805879, tzinfo=<UTC>)
+# UTC 기준 aware : datetime.datetime(2019, 2, 14, 4, 18, 28, 805879, tzinfo=<UTC>)
 
 KST.localize(now)
-# UTC 시각, 시간대만 KST : datetime.datetime(2019, 2, 13, 4, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
+# UTC 시각, 시간대만 KST : datetime.datetime(2019, 2, 14, 4, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
 
 utc.localize(now).astimezone(KST)
-# KST 기준 aware : datetime.datetime(2019, 2, 13, 13, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
+# KST 기준 aware : datetime.datetime(2019, 2, 14, 13, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
 
 ```
 
 `replace()` 메소드로 날짜나 시간대를 변경할 수 있습니다.  
 
 ```python
+KST = timezone('Asia/Seoul')
+TW = timezone('Asia/Taipei')
+
 date = datetime.datetime.now()
-# datetime.datetime(2019, 2, 13, 13, 59, 44, 872224)
+# datetime.datetime(2019, 2, 14, 13, 59, 44, 872224)
 
-date.replace(hour=10)
-# datetime.datetime(2019, 2, 13, 10, 59, 44, 872224)
+date.replace(hour=10) # hour만 변경
+# datetime.datetime(2019, 2, 14, 10, 59, 44, 872224) 
 
-date.replace(tzinfo=KST)
-# datetime.datetime(2019, 2, 13, 13, 59, 44, 872224, tzinfo=<DstTzInfo 'Asia/Seoul' LMT+8:28:00 STD>)
+date.replace(tzinfo=KST) # tzinfo만 변경
+# datetime.datetime(2019, 2, 14, 13, 59, 44, 872224, tzinfo=<DstTzInfo 'Asia/Seoul' LMT+8:28:00 STD>)
+
+date.replace(tzinfo=TW) # tzinfo만 변경
+# datetime.datetime(2019, 2, 14, 13, 59, 44, 872224, tzinfo=<DstTzInfo 'Asia/Taipei' LMT+8:06:00 STD>)
 ```
 
-하지만 replace는 그 속성 자체만을 바꿔버리는 것이기 때문에 사용에 주의할 필요가 있습니다.
+하지만 replace는 그 속성 자체만을 바꿔버리는 것이기 때문에 사용에 주의할 필요가 있습니다. 
 
 ```python
-KST = timezone('Asia/Seoul')
 now = datetime.datetime.utcnow()
 
 assert utc.localize(now) == now.replace(tzinfo=utc)
 assert KST.localize(now) != now.replace(tzinfo=KST)
+assert TW.localize(now) != now.replace(tzinfo=TW)
 ```
+그뿐만 아니라 더 큰 문제는 `replace()`를 이용할 경우 시간대조차도 의도하지 않은 정보로 설정될 수도 있으므로 유의해야 합니다. 그 이유는 아래와 같습니다.
+
+- 시간대는 생각보다 자주 바뀝니다(더 자세한 내용은 [스포카의 규칙](#스포카의-규칙) 2번을 참고해주세요). 이렇게 변경되는 사항들은 tz database에 기록되는데, pytz는 이에 기반합니다. pytz의 버전이 `2018.9`와 같은 날짜로 되어있는데 `2018.9` 버전은 2018년 9월 기준 시간대 테이블을 기준으로 시간대를 만들어주는 버전입니다. 이 버전에선 `Asia/Seoul`의 시간대는 `UTC+9`입니다.
+- pytz는 무슨 이유에서 인지 `datetime.replace()`나 `datetime.astimezone()`에서 호출될 때 이 tz database 타임 테이블의 맨 첫 번째(가장 오래된) 기록을 가지고 변환을 시도합니다. 서울의 경우 초기에 `UTC+8:28`이었기 때문에 이 정보를 기반으로 변환합니다.
+
+그래서 `pytz`를 사용할 때는 `pytz.timezone.localize()`를 항상 써야 하고, `.astimezone()`같은 파이썬의 표준 메서드들을 사용하고 싶다면 `datetime.timezone`을 사용해야 합니다.
 
 
 ## 스포카의 규칙
 스포카에서 datetime을 다룰 때 흔히 따르는 두 가지 큰 원칙이 있습니다.
 
-### naive datetime은 절대 사용하지 않습니다.
+### 1. naive datetime은 절대 사용하지 않습니다.
 가장 큰 이유는 naive datetime과 aware datetime을 서로 섞어서 쓰지 못한다는 것입니다.
 
-```
+```pycon
 >>> from datetime import datetime, timezone
 >>> datetime.utcnow() + datetime.now(tz=timezone.utc)
 Traceback (most recent call last):
@@ -269,7 +281,7 @@ TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'datetime.
 
 동적 타입 언어에서 쓸 수 있는 가장 간단한 타입 검사 수단인 `isinstance()` 체크로도 이 둘을 구별할 수가 없으므로, 코드의 어느 지점에서 naive datetime이 섞이기 시작하면 예기치 않은 지점에서 버그 발생 가능성이 급격히 올라갑니다. Python 2에서 `str`과 `unicode`를 섞으면 안 되는 것과 비슷한 이유라고 생각하시면 됩니다.
 
-### 장기적으로 보존해야 하는 datetime은 항상 UTC를 기준으로 저장합니다.
+### 2. 장기적으로 보존해야 하는 datetime은 항상 UTC를 기준으로 저장합니다.
 지역 시간대는 지정학적 또는 정치적인 이유로 생각보다 자주 바뀝니다. 예컨대 1961년 이전까지 한국은 UTC+08:30을 지역 시간대로 사용했었고, 1988년 올림픽 즈음에는 일광 절약 시간대를 시행하고 있었습니다. 시간대 데이터베이스(tz database)는 이런 변경 내역을 담고 있고, pytz가 제공하는 시간대 객체의 동작에도 반영되어 있습니다. 그 때문에 시간대 데이터베이스가 제때 업데이트되지 않거나, 갑작스러운 시간대 변경으로 데이터베이스에 반영이 늦어지거나 하면, 시간 계산에서 오차가 발생할 여지가 있습니다. 또한 같은 aware datetime 이어도 서로 다른 시간대를 가진 datetime끼리 연산하거나 하는 상황도 문제를 복잡하게 만들고, DB나 다른 서비스의 API를 사용할 때, 그 서비스가 시간대를 제대로 다루는 데에 필요한 복잡도를 감수하는 대신 단순히 UTC 기준의 고정 오프셋 시간대만 사용하는 등의 이유로 서로 지원 범위가 맞지 않아 곤란을 겪을 수도 있습니다.
 
 혼선을 줄일 수 있는 좋은 규칙 중 하나는, `str`과 `unicode`를 다루던 것과 비슷하게 모든 내부적인 계산에서 UTC 기준의 aware datetime만 사용하고, 사용자에게 보여줘야 할 때만 필요한 시간대로 변환해서 보여 주는 것입니다. 
