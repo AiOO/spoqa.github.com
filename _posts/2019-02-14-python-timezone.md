@@ -239,7 +239,7 @@ date = datetime.datetime.now()
 # datetime.datetime(2019, 2, 14, 13, 59, 44, 872224)
 
 date.replace(hour=10) # hour만 변경
-# datetime.datetime(2019, 2, 14, 10, 59, 44, 872224) 
+# datetime.datetime(2019, 2, 14, 10, 59, 44, 872224)
 
 date.replace(tzinfo=KST) # tzinfo만 변경
 # datetime.datetime(2019, 2, 14, 13, 59, 44, 872224, tzinfo=<DstTzInfo 'Asia/Seoul' LMT+8:28:00 STD>)
@@ -257,7 +257,7 @@ assert utc.localize(now) == now.replace(tzinfo=utc)
 assert KST.localize(now) != now.replace(tzinfo=KST)
 assert TW.localize(now) != now.replace(tzinfo=TW)
 ```
-그뿐만 아니라 더 큰 문제는 `replace()`를 이용할 경우 시간대조차도 의도하지 않은 정보로 설정될 수도 있으므로 유의해야 합니다. 그 이유는 아래와 같습니다.
+그뿐만 아니라 `replace()`를 이용할 경우 의도하지 않은 시간대로 설정될 수도 있으므로 유의해야 합니다. 그 이유는 아래와 같습니다.
 
 - 시간대는 생각보다 자주 바뀝니다(더 자세한 내용은 [스포카의 규칙](#스포카의-규칙) 2번을 참고해주세요). 이렇게 변경되는 사항들은 tz database에 기록되는데, pytz는 이에 기반합니다. pytz의 버전이 `2018.9`와 같은 날짜로 되어있는데 `2018.9` 버전은 2018년 9월 기준 시간대 테이블을 기준으로 시간대를 만들어주는 버전입니다. 이 버전에선 `Asia/Seoul`의 시간대는 `UTC+9`입니다.
 - pytz는 무슨 이유에서 인지 `datetime.replace()`나 `datetime.astimezone()`에서 호출될 때 이 tz database 타임 테이블의 맨 첫 번째(가장 오래된) 기록을 가지고 변환을 시도합니다. 서울의 경우 초기에 `UTC+8:28`이었기 때문에 이 정보를 기반으로 변환합니다.
