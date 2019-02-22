@@ -146,6 +146,20 @@
         </div>
       </div>
     </div>
+    {% assign url_left5 = page.url|slice: 0, 5 %}
+    {% if page.url == '/' or url_left5 == '/page' %}
+      <div class="recruit-banner">
+        <div class="filter-gray"></div>
+        <div class="filter-mainblue"></div>
+        <div class="content">
+          <div class="phrase">
+            열린 문화 속에서 일하는<br>
+            <strong>스포카와 함께하세요.</strong>
+          </div>
+          <a class="button" href="/jobs/">진행중인 채용</a>
+        </div>
+      </div>
+    {% endif %}
     <!--<div class="hiring-banner">
       <div class="hiring-fixedwidth-wrap">
         <div class="hiring-content">
