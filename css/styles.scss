@@ -889,6 +889,10 @@ figcaption {
   background-size: cover;
   background-position: center;
 
+  @media only screen and (max-width: 580px) {
+    height: 300px;
+  }
+
   > .filter-gray, > .filter-mainblue {
     position: absolute;
     top: 0;
@@ -910,11 +914,22 @@ figcaption {
     padding-top: 90px;
     padding-bottom: 80px;
 
+    @media only screen and (max-width: 580px) {
+      padding-top: 60px;
+      padding-bottom: 50px;
+    }
+
     > .phrase {
       margin-bottom: 34px;
       color: white;
       font-size: 40px;
       line-height: 54px;
+
+      @media only screen and (max-width: 580px) {
+        margin-bottom: 46px;
+        font-size: 36px;
+        line-height: 48px;
+      }
     }
 
     > .button {
