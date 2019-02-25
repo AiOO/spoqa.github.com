@@ -893,6 +893,10 @@ figcaption {
     height: 300px;
   }
 
+  @media only screen and (max-width: 425px) {
+    height: 240px;
+  }
+
   > .filter-gray, > .filter-mainblue {
     position: absolute;
     top: 0;
@@ -919,6 +923,16 @@ figcaption {
       padding-bottom: 50px;
     }
 
+    @media only screen and (max-width: 425px) {
+      padding-top: 46px;
+      padding-bottom: 42px;
+    }
+
+    @media only screen and (max-width: 360px) {
+      padding-top: 50px;
+      padding-bottom: 46px;
+    }
+
     > .phrase {
       margin-bottom: 34px;
       color: white;
@@ -929,6 +943,18 @@ figcaption {
         margin-bottom: 46px;
         font-size: 36px;
         line-height: 48px;
+      }
+
+      @media only screen and (max-width: 425px) {
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: 360px) {
+        font-size: 28px;
+        line-height: 40px;
       }
     }
 
@@ -961,6 +987,13 @@ figcaption {
         display: inline;
         margin-left: 9px;
         color: rgba(white, 0.5);
+      }
+
+      @media only screen and (max-width: 425px) {
+        width: 128px;
+        height: 40px;
+        margin: 0 auto;
+        padding: 12px 0 14px;
       }
     }
   }
