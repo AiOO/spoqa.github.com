@@ -146,15 +146,20 @@
         </div>
       </div>
     </div>
-    <!--<div class="hiring-banner">
-      <div class="hiring-fixedwidth-wrap">
-        <div class="hiring-content">
-          <h2 class="hiring-title">당신과 함께<br> 일하고 싶습니다.</h2>
-          <div class="hiring-subtitle">스포카에서 배우고 성장하면서, <br>서비스와 제품을 함께 만들어 나갈 <br>크리에이터를 모집합니다.</div>
-          <a class="btn-job" type="button" href="/jobs.html">채용 공고 보기</a>
+    {% assign url_left5 = page.url|slice: 0, 5 %}
+    {% if page.url == '/' or url_left5 == '/page' %}
+      <div class="recruit-banner">
+        <div class="filter-gray"></div>
+        <div class="filter-mainblue"></div>
+        <div class="content">
+          <div class="phrase">
+            열린 문화 속에서 일하는<br>
+            <strong>스포카와 함께하세요.</strong>
+          </div>
+          <a class="button" href="/jobs/">진행중인 채용</a>
         </div>
       </div>
-    </div>-->
+    {% endif %}
     <div class="content">
       {{ content }}
     </div>
