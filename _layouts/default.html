@@ -140,7 +140,8 @@
             <li><a class="
               {% if page.url == '/jobs.html' or url_left6 == '/jobs/' %}
               selected
-              {% endif %} menu-job" href="/jobs/">채용정보</a></li>
+              {% endif %} menu-job" href="/jobs/"
+              onclick="ga('send', 'event', '채용 정보', 'click', '메인페이지 > 채용 정보')">채용정보</a></li>
             {% endif %}
           </ul>
         </div>
@@ -156,7 +157,8 @@
             열린 문화 속에서 일하는<br>
             <strong>스포카와 함께하세요.</strong>
           </div>
-          <a class="button" href="/jobs/">진행중인 채용</a>
+          <a class="button" href="/jobs/"
+          onclick="ga('send', 'event', '채용 정보', 'click', '메인페이지 > 배너 > 채용 정보')">진행중인 채용</a>
         </div>
       </div>
     {% endif %}
