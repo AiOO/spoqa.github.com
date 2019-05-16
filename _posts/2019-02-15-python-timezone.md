@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "파이썬의 시간대(datetime.timezone)에 대해 알아보기"
+title: "파이썬의 시간대에 대해 알아보기(datetime.timezone)"
 author: 김두리
 author-email: dudu@spoqa.com
 description: 파이썬의 시간대에 대해서 알아봅니다.
