@@ -600,6 +600,9 @@ figcaption {
   h1 {
     font-size: 36px;
   }
+  .post-title {
+    word-break: break-word;
+  }
 }
 
 @media only screen and (max-width: 580px) {
