@@ -11,7 +11,7 @@ publish: true
 회사 생활에서 가장 중요한 건 무엇이라고 생각하시나요? 급여, 복지, 성장 가능성 등 떠오르는 것들이 많지만,  함께 일하는 동료가 중요하다는 의견에 대부분 공감하실 것입니다. “회사는 가족이 아니라 스포츠팀이다"라는 넷플릭스의 유명한 기업 문화에서도 알 수 있듯이, ‘팀'으로서 동료들과 상호보완하며 퍼포먼스를 낼 수 있는 인재를 찾는 일은 조직에 필수적입니다. 능력이 뛰어난 한 명의 스타 플레이어가 있다고 해도 하루의 8시간 이상을 함께 보내는 동료와 협업이 어렵다면 아무리 좋은 환경이어도 즐겁기 힘들겠지요.
 
 <figure>
-  <img src="/images/2019-07-03/cowomen.jpg"style="margin: 0 auto;" />
+  <img src="/images/2019-07-03/cowomen.jpg" style="margin: 0 auto;" />
 </figure>
 
 # 스포칸의 이야기가 담긴 채용 사이트
@@ -27,13 +27,13 @@ publish: true
 사실 티오가 확정된 순간부터 하루 빨리 공고를 열고 싶어 마음이 급했습니다. 하지만 막상 새로운 디자이너와 함께 일하는 모습을 그려보니, 디자인팀이 원하는 사람이 어떤 사람인지 뚜렷하게 설명하기가 어려웠습니다. 그래서 먼저 함께 모여 '디자인팀이 찾는 사람은 누구인지'에 대한 이야기를 나누는 시간을 가졌습니다. 이 시간을 통해 팀이 원하는 프로덕트 디자이너의 Job Description을 다시 정의했습니다. 그러면서 각자의 머릿속에 우리가 원하는 디자이너의 페르소나를 동기화했고, 이는 추후 지원자에 대한 의사 결정을 빠르게 하는 데 보탬이 됐습니다.
 
 <figure>
-  <img src="/images/2019-07-03/jd1.png"style="margin: 0 auto;" />
+  <img src="/images/2019-07-03/jd1.png" style="margin: 0 auto;" />
   <figcaption>“우리는 누구를 찾는가" 논의 후 작성한 JD</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/2019-07-03/jd2.png"style="margin: 0 auto;" />
-  <figcaption>추후 업데이트한 2 JD</figcaption>
+  <img src="/images/2019-07-03/jd2.png" style="margin: 0 auto;" />
+  <figcaption>추후 업데이트한 2차 JD</figcaption>
 </figure>
 
 # 인터뷰 디자인 하기
@@ -59,18 +59,18 @@ publish: true
 유니콘 같은 지원자가 짜잔하고 나타나길 기다리기 보다는, 우리 조직에서 재능을 펼칠 잠재력이 있는 지원자를 팀이 함께 발굴해내야 합니다. 지원자와 우리 조직 모두 서로가 서로를 깊이 이해할 수 있는 채용 과정을 설계해야 합니다.
 
 <figure>
- <img src="/images/2019-07-03/designteam1.jpg"style="margin: 0 auto;" />
+ <img src="/images/2019-07-03/designteam1.jpg" style="margin: 0 auto;" />
 </figure>
 
 <figure>
- <img src="/images/2019-07-03/didi.jpg"style="margin: 0 auto;" />
+ <img src="/images/2019-07-03/didi.jpg" style="margin: 0 auto;" />
 </figure>
 
 <figure>
- <img src="/images/2019-07-03/designteam2.jpg"style="margin: 0 auto;" />
+ <img src="/images/2019-07-03/designteam2.jpg" style="margin: 0 auto;" />
 </figure>
 
-#맺으며
+# 맺으며
 
 이 글을 통해 스포카 프로덕트 디자이너 채용에 지원해주신, 또 인터뷰까지 성실히 임해주신 모든 분들에게 다시 한번 진심으로 감사를 전합니다. 사실 이렇게 적극적으로 디자이너 공개 채용을 진행한 건 스포카 디자인팀 역사상 처음이었습니다. 그럼에도 불구하고 역대 가장 많은, 또 뛰어난 디자이너 분들이 많이 지원해주셨습니다. 개인적으로도 멋진 분들을 많이 만나고 그분들의 답변을 통해서도 많이 배웠습니다.
 
