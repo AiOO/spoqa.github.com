@@ -453,7 +453,7 @@ Poetry의 설정 파일 위치는 OS마다 다르지만, Linux에서는 기본�
 </figure>
 
 이번에도 이 PR은 머지되지 않고 (눈물),
-[설정 동작의 구조 자체를 바꾸는 PR](https://github.com/sdispater/poetry/pull/1248)에서
+[설정 동작의 구조 자체를 바꾸는 PR](https://github.com/sdispater/poetry/pull/1272)에서
 한꺼번에 해결되었습니다.
 
 아무튼 엄청 크리티컬한 문제는 아니기에, 버그가 수정된 버전이 릴리즈되기 전까지
@@ -516,7 +516,7 @@ SIGINT를 받습니다. 그리고... 종료됩니다.
 프로세스로 전파하게 만들거나, 아니면 자식 프로세스를 아예 만들지 않고 Poetry
 프로세스를 아예 어플리케이션 프로세스로 교체하는 방법이 있습니다. Linux에서는
 exec 시스템 콜을 이용하면 후자를 구현할 수 있습니다. 그래서 저는 후자를
-선택해서, [문제를 수정하는 PR](https://github.com/sdispater/poetry/pull/1248)을
+선택해서, [문제를 수정하는 PR](https://github.com/sdispater/poetry/pull/1236)을
 올렸습니다.
 
 <figure>
