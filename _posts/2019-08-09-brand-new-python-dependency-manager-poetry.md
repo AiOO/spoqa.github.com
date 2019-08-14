@@ -356,7 +356,7 @@ class에는 `default`라는 attribute가 없다는 것 같은데요..
 
 제가 작성한 `Dockerfile`은 다음과 같았습니다:
 
-```Dockerfile
+```dockerfile
 FROM python:3.7.4-alpine
 
 RUN apk --no-cache add postgresql-libs &&\
@@ -459,7 +459,7 @@ Poetry의 설정 파일 위치는 OS마다 다르지만, Linux에서는 기본�
 아무튼 엄청 크리티컬한 문제는 아니기에, 버그가 수정된 버전이 릴리즈되기 전까지
 저는 `Dockerfile`을 살짝 수정하여 사용하고 있습니다:
 
-```Dockerfile
+```dockerfile
 ...
 
 
