@@ -29,40 +29,40 @@ publish: true
 
 | 참여자 | 내용 | 
 | --- | ---:|
-[jeongukjae](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/24) | 게임 |
 [2minchul](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/36) | 게임 |
-[carta12](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/29) | 게임 |
-[jadyn-ahn](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/38) | 게임 |
-[ming99999](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/14) | 웹 페이지 |
-[Hyesung82](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/33) | 웹 페이지 |
-[OuO](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/32) | 웹 페이지 |
-[siner308](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/17) | 웹 페이지 |
-[idjoopal](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/19) | CSV visualize |
-[startergate](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/11) | 디스코드 |
-[gaon000](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/34) | PyQt |
-[machenity](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/21) | HTTPServer |
-[codeengn](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/8) | 스크린 출력 |
-[sunriseslowy](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/20) | 캔버스 출력 |
-[Heartade](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/35) | 캔버스 출력 |
-[aciddust](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/7) | 콘솔 출력 |
-[seosaju](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/9) | 콘솔 출력 |
-[jonnung](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/23) | 콘솔 출력 |
-[mazicky](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/37) | 콘솔 출력 |
-[SDRLurker](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/22) | 콘솔 출력 |
-[9bow](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/30) | 콘솔 출력 |
-[MCPE-PC](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/31) | 콘솔 출력 |
-[JaehyeukOO](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/3) | 콘솔 출력 |
-[achooan](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/18) | 콘솔 출력 |
-[ho1234c](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/26) | 콘솔 출력 |
-[inureyes](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/28) | 콘솔 출력 |
-[chrisjune](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/25) | 콘솔 출력 |
-[junho85](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/27) | 콘솔 출력 |
-[isaac105](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/10) | 콘솔 출력 |
-[lastlaugher](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/4) | 진짜 print문 |
-[Baekyeongmin](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/12) | 진짜 print문 |
-[noowad93](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/13) | 진짜 print문 |
-[KorJeongHyeonLee](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/15) | 진짜 print문 |
 [300wonplz](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/16) | 진짜 print문 |
+[9bow](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/30) | 콘솔 출력 |
+[Baekyeongmin](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/12) | 진짜 print문 |
+[Heartade](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/35) | 캔버스 출력 |
+[Hyesung82](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/33) | 웹 페이지 |
+[JaehyeukOO](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/3) | 콘솔 출력 |
+[KorJeongHyeonLee](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/15) | 진짜 print문 |
+[MCPE-PC](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/31) | 콘솔 출력 |
+[OuO](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/32) | 웹 페이지 |
+[SDRLurker](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/22) | 콘솔 출력 |
+[achooan](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/18) | 콘솔 출력 |
+[aciddust](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/7) | 콘솔 출력 |
+[carta12](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/29) | 게임 |
+[chrisjune](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/25) | 콘솔 출력 |
+[codeengn](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/8) | 스크린 출력 |
+[gaon000](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/34) | PyQt |
+[ho1234c](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/26) | 콘솔 출력 |
+[idjoopal](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/19) | CSV visualize |
+[inureyes](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/28) | 콘솔 출력 |
+[isaac105](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/10) | 콘솔 출력 |
+[jadyn-ahn](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/38) | 게임 |
+[jeongukjae](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/24) | 게임 |
+[jonnung](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/23) | 콘솔 출력 |
+[junho85](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/27) | 콘솔 출력 |
+[lastlaugher](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/4) | 진짜 print문 |
+[machenity](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/21) | HTTPServer |
+[mazicky](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/37) | 콘솔 출력 |
+[ming99999](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/14) | 웹 페이지 |
+[noowad93](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/13) | 진짜 print문 |
+[seosaju](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/9) | 콘솔 출력 |
+[siner308](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/17) | 웹 페이지 |
+[startergate](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/11) | 디스코드 |
+[sunriseslowy](https://github.com/spoqa/spoqa-pycon-2019-code-challenge/pull/20) | 캔버스 출력 |
 
 
 ## 수상작
