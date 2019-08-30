@@ -103,7 +103,7 @@ publish: true
 
 ### idjoopal 님이 제출해주신 작품입니다.
 
-CSV를 이용해 `CONNECT THE PYTHONISTAS`를 visualize를 해주셨습니다.
+CSV를 이용해 `CONNECT THE PYTHONISTAS`를 visualize 해주셨습니다.
 
 <figure>
  <img src="/images/2019-08-30/idjoopal.png" style="margin: 0 auto;" />
