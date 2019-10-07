@@ -29,3 +29,8 @@
   [Jekyll]: http://jekyllrb.com
   [Markdown]: http://daringfireball.net/projects/markdown/
   [RDiscount]: http://dafoster.net/projects/rdiscount/
+
+## Profile 추가 방법
+1. 프로필 이미지를 `images/profile/` 폴더에 `{email}@spoqa.com.png` 파일명으로 업로드해주세요. ( 확장자는 반드시 `.png` 이여야 합니다. )
+
+2. `about.html` 하단에 `profile` 정보를 추가해주시면 됩니다.
