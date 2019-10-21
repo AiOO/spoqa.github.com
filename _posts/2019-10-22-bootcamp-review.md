@@ -43,14 +43,14 @@ publish: true
 특히 업무 메신저인 `Slack`에서는 부트캠프 기간 동안 다음과 같이 데일리 [스탠드업](https://en.wikipedia.org/wiki/Stand-up_meeting)을 통해 서로의 상태를 공유합니다.[^2]
 
 <figure>
-  <img src="/images/2019-10-11/slack-standup.png" style="margin: 0 auto;" />
+  <img src="/images/2019-10-22/slack-standup.png" style="margin: 0 auto;" />
   <figcaption>데일리 스탠드업을 통해 온도체크, 작업 내용 리뷰 등을 진행합니다.</figcaption>
 </figure>
 
 7시가 되면 퇴근 리마인더가 작동합니다. 
 
 <figure>
-  <img src="/images/2019-10-11/slack-reminder.png" style="margin: 0 auto;" />
+  <img src="/images/2019-10-22/slack-reminder.png" style="margin: 0 auto;" />
   <figcaption><del>부트캠프 참여자는 정시에 퇴근하지 않으면 책상이 뒤집힌다는 소문이...</del></figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ publish: true
     - 매장에서 포인트 사용을 안내받고 포인트를 사용해봅니다.
 	
     <figure>
-      <img src="/images/2019-10-11/img-point-hero.png" style="margin: 0 auto;" />
+      <img src="/images/2019-10-22/img-point-hero.png" style="margin: 0 auto;" />
       <figcaption>도도 포인트 스토어앱</figcaption>
     </figure>
 
@@ -77,14 +77,14 @@ publish: true
     - **도도 매니저**(점주가 직접 고객 정보를 관리할 수 있는 서비스)를 통해 고객이 적립한 실시간 이력, 고객 목록 확인, 메시지 및 쿠폰 발송 등의 작업을 진행해봅니다.
 
     <figure>
-      <img src="/images/2019-10-11/img-index-manager.png" style="margin: 0 auto;" />
+      <img src="/images/2019-10-22/img-index-manager.png" style="margin: 0 auto;" />
      <figcaption>도도 포인트 매니저</figcaption>
     </figure>
 
 실제 매장 환경에서처럼 직접 서비스를 사용해보기 때문에 서비스의 목적과 기능을 이해하는 데 도움이 굉장히 많이 된다고 합니다. 중간중간에 깨알 재미 요소도 많아서 편안하고 즐겁게 진행할 수 있었다는 피드백이 많습니다.
 
 <figure>
-  <img src="/images/2019-10-11/roleplay.png" style="margin: 0 auto;" />
+  <img src="/images/2019-10-22/roleplay.png" style="margin: 0 auto;" />
   <figcaption>역할극 진행 과정 일부</figcaption>
 </figure>
 
@@ -95,12 +95,12 @@ publish: true
 
 ### 이슈 진행
 
-스포카는 제품을 개발하는 과정에서 **[SOA(Service Oriented Architecture)](https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html)**를 채택하고 있습니다. SOA란 비즈니스를 기능별로 추상화하고, 서비스를 나누어 각각 독립된 웹서비스로 구현하며, 이 여러 서비스가 서로 통신하며 커다란 한 서비스의 기능을 하도록 하는 아키텍처 모델입니다. 이로 인해 주요 서비스(도도 포인트, 도도 인사이트, 도도 매니저 등)가 동작하기 위한 수많은 **[마이크로서비스(Microservices)](https://www.redhat.com/ko/topics/microservices/what-are-microservices)**가 존재합니다.
+스포카는 제품을 개발하는 과정에서 **[SOA(Service Oriented Architecture)](https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html)**를 채택하고 있습니다. SOA란 비즈니스를 기능별로 추상화하고, 서비스를 나누어 각각 독립된 웹서비스로 구현하며, 이 여러 서비스가 서로 통신하며 커다란 한 서비스의 기능을 하도록 하는 아키텍처 모델입니다. 이로 인해 주요 서비스가 동작하기 위한 수많은 **[마이크로서비스(Microservices)](https://www.redhat.com/ko/topics/microservices/what-are-microservices)**가 존재합니다.
 
 이 기간 동안 [Github 저장소](https://github.com/spoqa)에 있는 이러한 주요 서비스 및 마이크로서비스에 익숙해지며 각종 이슈를 해결해보는 시간을 가지게 되고, 문제를 해결하기 위해 코드를 분석하고 파악하는 과정 속에서 주요 코드 패턴이나 코드 리뷰 문화에 익숙해질 수 있습니다. 또한 부트캠프 위원회와의 [페어 프로그래밍(Pair programming)](https://en.wikipedia.org/wiki/Pair_programming)을 통해 적극적으로 서로의 지식을 교환하거나 노하우를 전수하기도 합니다.
 
 <figure>
-  <img src="/images/2019-10-11/issue.png" style="margin: 0 auto;" />
+  <img src="/images/2019-10-22/issue.png" style="margin: 0 auto;" />
   <figcaption>이슈 진행 예시</figcaption>
 </figure>
 
@@ -116,7 +116,7 @@ publish: true
 스포카 크리에이터 팀은 현재 [리모트, 플렉서블 근무 제도](https://spoqa.github.io/2019/05/28/remote-flexible.html)를 시행하고 있습니다. 저는 이 탄력적인 근무 제도를 조금 더 편하게 사용할 수 있도록 스포칸만을 위한 **근무시간 도우미 앱**을 만들어 보기로 하였습니다. [Google Calendar API](https://developers.google.com/calendar)와 [Google OAuth 2.0](https://developers.google.com/identity/protocols/OAuth2)을 이용하여 앱에서 스포카 G Suite 계정에 로그인하면 API 서버에서 Google 캘린더에 근무시간 이벤트를 추가, 수정할 수 있도록 구현하였습니다. 
 
 <figure>
-  <img src="/images/2019-10-11/app-screenshot.png" style="margin: 0 auto;" />
+  <img src="/images/2019-10-22/app-screenshot.png" style="margin: 0 auto;" />
   <figcaption>근무시간 도우미 앱 실행 화면</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ publish: true
 감사합니다. 
 
 
-[1]: https://spoqa.github.io/2019/10/11/bootcamp-review.html
+[1]: https://spoqa.github.io/2019/10/22/bootcamp-review.html
 
 [^1]: 부트캠프를 총괄하고 진행하는 위원회입니다. 보통 부트캠프 참석자 1명당 위원회 멤버 2명과 오거나이저 1명으로 구성됩니다.
 
