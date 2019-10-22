@@ -78,7 +78,7 @@ publish: true
 
     <figure>
       <img src="/images/2019-10-22/img-index-manager.png" style="margin: 0 auto;" />
-     <figcaption>도도 포인트 매니저</figcaption>
+     <figcaption>도도 매니저</figcaption>
     </figure>
 
 실제 매장 환경에서처럼 직접 서비스를 사용해보기 때문에 서비스의 목적과 기능을 이해하는 데 도움이 굉장히 많이 된다고 합니다. 중간중간에 깨알 재미 요소도 많아서 편안하고 즐겁게 진행할 수 있었다는 피드백이 많습니다.
