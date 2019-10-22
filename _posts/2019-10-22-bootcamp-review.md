@@ -40,7 +40,7 @@ publish: true
 * Bitbucket
 * Github organization
 
-특히 업무 메신저인 `Slack`에서는 부트캠프 기간 동안 다음과 같이 데일리 [스탠드업](https://en.wikipedia.org/wiki/Stand-up_meeting)을 통해 서로의 상태를 공유합니다.[^2]
+또 부트캠프 기간 동안 다음과 같이 데일리 [스탠드업](https://en.wikipedia.org/wiki/Stand-up_meeting)을 통해 서로의 상태를 공유하는데요, 편리한 데일리 스탠드업 미팅을 위해 업무 메신저인 Slack과 연동 가능한 스탠드업 앨리스 앱을 사용하기도 합니다.[^2]
 
 <figure>
   <img src="/images/2019-10-22/slack-standup.png" style="margin: 0 auto;" />
@@ -136,7 +136,7 @@ publish: true
 
 [^1]: 부트캠프를 총괄하고 진행하는 위원회입니다. 보통 부트캠프 참석자 1명당 위원회 멤버 2명과 오거나이저 1명으로 구성됩니다.
 
-[^2]: 스탠드업은 팀에 따라 직접 만나서 진행하기도 합니다. 자세한 내용은 [스포카에서는 어떻게 리모트, 플렉서블 근무를 할까](https://spoqa.github.io/2019/05/28/remote-flexible.html) 를 참고하시면 됩니다.
+[^2]: 스탠드업은 팀에 따라 대면하지 않고 Slack을 통해서만 진행하기도 합니다. 자세한 내용은 [스포카에서는 어떻게 리모트, 플렉서블 근무를 할까](https://spoqa.github.io/2019/05/28/remote-flexible.html) 를 참고하시면 됩니다.
 
 [^3]: 시간이 없어서 진행하지 못한 이슈, 소속 팀에서 미뤄뒀던 이슈, 기존 팀원이 처리중이던 이슈 등 원하는 이슈를 맡아 진행합니다.
 
